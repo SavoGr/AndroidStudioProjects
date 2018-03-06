@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#34ef9e</color>
+    <color name="colDo">#FF4081</color>
+    <color name="colRe">#ff4340</color>
+    <color name="colMi">#ffd940</color>
+    <color name="colFa">#21f400</color>
+    <color name="colSol">#00ffdd</color>
+    <color name="colLa">#0037ff</color>
+    <color name="colsSi">#df00fd</color>
+    <color name="colDo2">#ab3078</color>
+    <color name="colorBela">#ffffff</color>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.savoo.textmultiplier.Pocetna"
+    android:weightSum="1"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:id="@+id/etTekst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:text="Type text.."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+
+            tools:text="by.."
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/etNumber"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Multiply"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btnDugme"
+            android:onClick="pomnoziIispisi"
+            />
+
+    </LinearLayout>
+    <Button
+
+        android:layout_width="wrap_content"
+        android:onClick="kopirajUklip"
+        android:layout_height="wrap_content"
+        android:text="Copy to clipboard"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"/>
+
+    <EditText
+        android:textSize="20dip"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etIspis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+
+</LinearLayout>
